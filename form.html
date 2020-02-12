@@ -1,0 +1,59 @@
+<!DOCTYPE >
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Формы 1.0</title>
+</head>
+<body>
+<form action="formdata.php" method="POST" name="form1">
+    <fieldset>
+        <legend>Ввод личных данных</legend>
+        <p><label>Ваше имя: <input type="text" name="name" size="20" maxlength="20"></label></p>
+        <p><label>Ваша фамилия: <input type="text" name="name" size="20" maxlength="20"></label></p>
+        <p><label>Дата рождения: <input type="text" name="name" size="20" maxlength="20"></label></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Вопросы</legend>
+        <p>Ваш пол:</p>
+        <p>
+            <label><input type="checkbox" name="ez">Мужской</label>
+            <label><input type="checkbox" name="hr">Женский</label>
+            <label><input type="checkbox" name="sv" checked>Другое</label>
+        </p>
+
+        <p>Цвет вашей кожи</p>
+
+        <div><input type="color" id="color"></div>
+
+        <p>На каком континенте вы проживаете?</p>
+        <p>
+            <select name="sleep" size="7" multiple>
+                <option>Австралия</option>
+                <option>Азия</option>
+                <option>Антарктида</option>
+                <option>Африка</option>
+                <option>Европа</option>
+                <option>Северная Америка</option>
+                <option>Южная Америка</option>
+            </select>
+        </p>
+    </fieldset>
+
+    <p align="center"><strong>Подтвердите что вы не инопланетянин:</strong></p>
+    <p align="center"><label>Ya inoplanetyanin<input type="radio" name="race" value="no" checked></label>
+        ///Тогда вам сюда: <a
+                href="https://nsn.fm/aviation-and-space/aviation-and-space-ufologi-obvinili-nasa-v-sgovore-s-inoplanetyanami"
+                target="_blank" title="Ваши уже близко">
+            https:Oni uze blizko.com</a></p>
+    <p align="center"><label>Я землянин<input type="radio" name="race" value="yes" disabled></label>
+        ///С вами все понятно</p>
+    <p align="center"><label>Затрудняюсь ответить<input type="radio" name="race" value="no">
+        ///А вам сюда:<a
+                href="https://piter-trening.ru/kak-opredelitsya-v-zhizni-ne-stav-zalozhnikom-obshhestvennogo-mneniya/"
+                target="_blank" title="Сделай хоть что ни будь">
+            https:Opredelys/nakonec.com</a></p>
+
+
+</body>
+</html>
